@@ -204,5 +204,5 @@ The judge scores each reply on a 1-5 scale across four dimensions:
 ## Attribution
 
 - **Dataset**: [Customer Support on Twitter](https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter) by Thought Vector (Kaggle)
-- **LLM**: Google Gemini API (gemini-2.0-flash)
+- **LLM**: Google Gemini API (gemini-3.6-flash)
 
