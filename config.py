@@ -26,7 +26,7 @@ RANDOM_SEED = 42
 
 # ── LLM ────────────────────────────────────────────────────────────────────────
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
 LLM_TEMPERATURE = 0.3          # Low for consistency; bump for diversity
 LLM_MAX_RETRIES = 3
 LLM_RETRY_DELAY = 2            # seconds
