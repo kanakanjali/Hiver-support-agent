@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "gs_001",
+    "customer_message": "My iPhone screen cracked and now touch doesn't work at all",
+    "conversation_context": [],
+    "gold_intent": "device_issue",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Physical damage needs in-person assessment",
+    "difficulty": "easy",
+    "reference_reply": "We're sorry to hear about this! For a cracked screen, we'd recommend visiting an Apple Store or an Apple Authorized Service Provider for an assessment. You can set up an appointment here: https://getsupport.apple.com ^KA"
+  },
+  {
+    "id": "gs_002",
+    "customer_message": "The charging port on my MacBook Pro is loose and keeps disconnecting",
+    "conversation_context": [],
+    "gold_intent": "device_issue",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Hardware repair needed",
+    "difficulty": "easy",
+    "reference_reply": "That sounds frustrating. A loose charging port may need a repair. Please set up a service appointment at https://getsupport.apple.com so a technician can take a look. ^KA"
+  },
+  {
+    "id": "gs_003",
+    "customer_message": "My iPhone 13 gets extremely hot when I'm just browsing",
+    "conversation_context": [],
+    "gold_intent": "device_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Standard troubleshooting steps available",
+    "difficulty": "easy",
+    "reference_reply": "We understand the concern. Some warmth during use is normal, but let's check a few things. DM us your iPhone model and iOS version, and we'll help troubleshoot. ^KA"
+  },
+  {
+    "id": "gs_004",
+    "customer_message": "Speaker on my iPhone sounds muffled and distorted during calls",
+    "conversation_context": [],
+    "gold_intent": "device_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Basic speaker troubleshooting",
+    "difficulty": "easy",
+    "reference_reply": "We'd like to help with that! Try checking Settings > Sounds & Haptics and make sure nothing is blocking the speaker. If the issue persists, DM us and we'll look into next steps. ^KA"
+  },
+  {
+    "id": "gs_005",
+    "customer_message": "Home button on my iPad completely stopped working yesterday",
+    "conversation_context": [],
+    "gold_intent": "device_issue",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Hardware component failure",
+    "difficulty": "easy",
+    "reference_reply": "We're sorry about that. You can use AssistiveTouch as a temporary workaround: Settings > Accessibility > Touch > AssistiveTouch. For a repair, visit https://getsupport.apple.com. ^KA"
+  },
+  {
+    "id": "gs_006",
+    "customer_message": "My Apple Watch screen has a green line running down it",
+    "conversation_context": [],
+    "gold_intent": "device_issue",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Display hardware defect",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_007",
+    "customer_message": "Camera on my iPhone makes a clicking noise and photos are blurry",
+    "conversation_context": [],
+    "gold_intent": "device_issue",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Camera module likely needs replacement",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_008",
+    "customer_message": "My MacBook keyboard has sticky keys after a small spill",
+    "conversation_context": [],
+    "gold_intent": "device_issue",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Liquid damage requires physical inspection",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_009",
+    "customer_message": "iPhone vibration motor feels weird, like it's grinding",
+    "conversation_context": [],
+    "gold_intent": "device_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Can try settings reset first",
+    "difficulty": "medium",
+    "reference_reply": "That does sound unusual. Try restarting your iPhone first: hold Side + Volume Down, slide to power off, then turn back on. If it continues, DM us your model and we'll dig deeper. ^KA"
+  },
+  {
+    "id": "gs_010",
+    "customer_message": "My AirPods case won't charge even with different cables",
+    "conversation_context": [],
+    "gold_intent": "device_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Standard AirPods troubleshooting first",
+    "difficulty": "medium",
+    "reference_reply": "Let's help with that! Try these steps: 1) Clean the charging contacts 2) Try a different cable 3) Reset your AirPods by holding the setup button for 15 seconds. DM us if it persists. ^KA"
+  },
+  {
+    "id": "gs_011",
+    "customer_message": "The trackpad on my MacBook sometimes registers phantom clicks",
+    "conversation_context": [],
+    "gold_intent": "device_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Could be software, try SMC reset",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_012",
+    "customer_message": "My iPad Pro bent slightly in my bag and now the screen flickers",
+    "conversation_context": [],
+    "gold_intent": "device_issue",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Physical damage and display issue",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_013",
+    "customer_message": "iPhone 14 just randomly restarts when I make phone calls. Hardware?",
+    "conversation_context": [],
+    "gold_intent": "device_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Could be software issue, needs diagnosis",
+    "difficulty": "hard",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_014",
+    "customer_message": "tbh my phone just died. won't turn on. bought it 2 weeks ago",
+    "conversation_context": [],
+    "gold_intent": "device_issue",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "New device failure within warranty",
+    "difficulty": "hard",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_015",
+    "customer_message": "my macbook makes this weird fan noise even when doing nothing. is this normal???",
+    "conversation_context": [],
+    "gold_intent": "device_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Can check Activity Monitor first",
+    "difficulty": "hard",
+    "reference_reply": "Fan noise can sometimes be caused by background processes. Open Activity Monitor to check if anything is using high CPU. Also make sure your Mac has room to ventilate. DM us if it continues! ^KA"
+  },
+  {
+    "id": "gs_016",
+    "customer_message": "Bruh my iphone screen turned green after the update... is this a hardware thing or software??",
+    "conversation_context": [],
+    "gold_intent": "device_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Likely software; try restart first",
+    "difficulty": "hard",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_017",
+    "customer_message": "So my phone overheats, battery drains fast, AND the speaker crackles. Everything broke at once??",
+    "conversation_context": [],
+    "gold_intent": "device_issue",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Multiple simultaneous hardware issues",
+    "difficulty": "hard",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_018",
+    "customer_message": "Dropped my phone in water yesterday. Worked fine until today morning now screen is glitching",
+    "conversation_context": [],
+    "gold_intent": "device_issue",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Water damage requires inspection",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_019",
+    "customer_message": "My lightning cable port has lint stuck in it and won't charge properly",
+    "conversation_context": [],
+    "gold_intent": "device_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "User can clean port carefully",
+    "difficulty": "easy",
+    "reference_reply": "A lint buildup can definitely cause charging issues! Try gently cleaning the port with a wooden or plastic toothpick (avoid metal). Be careful not to damage the contacts. Let us know how it goes! ^KA"
+  },
+  {
+    "id": "gs_020",
+    "customer_message": "The Face ID sensor on my iPhone stopped working completely",
+    "conversation_context": [],
+    "gold_intent": "device_issue",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Sensor hardware failure",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_021",
+    "customer_message": "Ever since iOS 17 update my phone keeps freezing randomly",
+    "conversation_context": [],
+    "gold_intent": "software_bug",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Standard post-update troubleshooting",
+    "difficulty": "easy",
+    "reference_reply": "We understand how frustrating that can be after an update. Try a force restart: quickly press Volume Up, then Volume Down, then hold the Side button until you see the Apple logo. DM us if it continues. ^KA"
+  },
+  {
+    "id": "gs_022",
+    "customer_message": "My Mac is stuck on the Apple logo and won't boot",
+    "conversation_context": [],
+    "gold_intent": "software_bug",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Can guide through recovery mode",
+    "difficulty": "easy",
+    "reference_reply": "Let's try getting your Mac into Recovery Mode. Restart it and immediately hold Command+R until you see the Apple logo. From there you can try Disk Utility or reinstall macOS. DM us for step-by-step help. ^KA"
+  },
+  {
+    "id": "gs_023",
+    "customer_message": "FaceTime crashes every single time I try to make a video call",
+    "conversation_context": [],
+    "gold_intent": "software_bug",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "App reinstall/update may fix",
+    "difficulty": "easy",
+    "reference_reply": "Sorry about the crashes! Try deleting and reinstalling FaceTime, then restart your device. Also make sure you're on the latest iOS version. If it still crashes, DM us your details. ^KA"
+  },
+  {
+    "id": "gs_024",
+    "customer_message": "After updating to macOS Sonoma my external display stopped working",
+    "conversation_context": [],
+    "gold_intent": "software_bug",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Known compatibility issue, workarounds exist",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_025",
+    "customer_message": "My iPhone alarm didn't go off this morning! Made me late for work",
+    "conversation_context": [],
+    "gold_intent": "software_bug",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Known iOS alarm bug",
+    "difficulty": "easy",
+    "reference_reply": "We've heard about this and we're sorry it caused trouble! Make sure your Bedtime alarm is set up correctly in the Clock app (not just the Health app). Check Settings > Sounds & Haptics > Ringer volume too. ^KA"
+  },
+  {
+    "id": "gs_026",
+    "customer_message": "Siri just stopped working after the last update. Says 'something went wrong' every time",
+    "conversation_context": [],
+    "gold_intent": "software_bug",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Settings reset should fix",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_027",
+    "customer_message": "My iMessages are showing up in the wrong order. Timestamps are all messed up",
+    "conversation_context": [],
+    "gold_intent": "software_bug",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Date/time settings issue",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_028",
+    "customer_message": "Safari keeps crashing on my iPad. Can't browse any website for more than 30 seconds",
+    "conversation_context": [],
+    "gold_intent": "software_bug",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Clear cache and history",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_029",
+    "customer_message": "Widgets on my home screen keep disappearing after every restart",
+    "conversation_context": [],
+    "gold_intent": "software_bug",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Known bug, re-add after update",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_030",
+    "customer_message": "My Apple Watch won't pair with my new iPhone after transfer",
+    "conversation_context": [],
+    "gold_intent": "software_bug",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Unpair and re-pair process",
+    "difficulty": "medium",
+    "reference_reply": "Sorry about the pairing trouble! On your iPhone, go to Settings > Bluetooth, tap the (i) next to your Watch, and select 'Forget This Device.' Then re-pair from the Watch app. DM us if you need help. ^KA"
+  },
+  {
+    "id": "gs_031",
+    "customer_message": "The keyboard autocorrect has gotten SO much worse after the update. It changes correct words!!",
+    "conversation_context": [],
+    "gold_intent": "software_bug",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Reset keyboard dictionary",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_032",
+    "customer_message": "My phone randomly restarted 5 times today. No pattern I can see",
+    "conversation_context": [],
+    "gold_intent": "software_bug",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Check crash logs and update",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_033",
+    "customer_message": "Got a 'unable to check for update' error. Tried everything. 3 days now",
+    "conversation_context": [],
+    "gold_intent": "software_bug",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Network/storage troubleshooting",
+    "difficulty": "hard",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_034",
+    "customer_message": "icloud syncing is broken between all my devices. notes show on phone but not mac and vice versa",
+    "conversation_context": [],
+    "gold_intent": "software_bug",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "iCloud sync troubleshooting",
+    "difficulty": "hard",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_035",
+    "customer_message": "ok so my phone updated itself overnight and now half my apps are crashing. what did you guys do 😤",
+    "conversation_context": [],
+    "gold_intent": "software_bug",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Post-update app compatibility",
+    "difficulty": "hard",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_036",
+    "customer_message": "is anyone else having the bug where the phone screen just goes black during calls?? started after update",
+    "conversation_context": [],
+    "gold_intent": "software_bug",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Proximity sensor or software bug",
+    "difficulty": "hard",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_037",
+    "customer_message": "My iPad is stuck in a boot loop after trying to update. Can't even get to recovery mode",
+    "conversation_context": [],
+    "gold_intent": "software_bug",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Boot loop requiring DFU mode assistance",
+    "difficulty": "hard",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_038",
+    "customer_message": "Lost all my photos after the iOS update. They're just GONE. Please help this is years of memories",
+    "conversation_context": [],
+    "gold_intent": "software_bug",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Data loss is high severity",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_039",
+    "customer_message": "Mail app notifications stopped working. I've missed important work emails",
+    "conversation_context": [],
+    "gold_intent": "software_bug",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Notification settings reset",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_040",
+    "customer_message": "My iPhone clock is showing wrong time even though set to automatic",
+    "conversation_context": [],
+    "gold_intent": "software_bug",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Time zone settings fix",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_041",
+    "customer_message": "I can't sign into my Apple ID. Says my account has been locked for security reasons",
+    "conversation_context": [],
+    "gold_intent": "account_access",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Locked account needs identity verification",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_042",
+    "customer_message": "Forgot my Apple ID password and the recovery email is an old one I don't have access to",
+    "conversation_context": [],
+    "gold_intent": "account_access",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Account recovery with no email access",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_043",
+    "customer_message": "Two-factor authentication code isn't arriving on any of my devices",
+    "conversation_context": [],
+    "gold_intent": "account_access",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "2FA failure locks user out completely",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_044",
+    "customer_message": "Someone changed my Apple ID password and I think my account was hacked",
+    "conversation_context": [],
+    "gold_intent": "account_access",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Security breach - immediate escalation",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_045",
+    "customer_message": "I set up a new iPhone but it's asking for the previous owner's Apple ID to activate",
+    "conversation_context": [],
+    "gold_intent": "account_access",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Activation lock requires ownership proof",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_046",
+    "customer_message": "Can't remember my Apple ID email address at all. How do I find it?",
+    "conversation_context": [],
+    "gold_intent": "account_access",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Can guide through iforgot.apple.com",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_047",
+    "customer_message": "My kid set a screen time passcode and now even I can't change it",
+    "conversation_context": [],
+    "gold_intent": "account_access",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Screen Time passcode recovery steps",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_048",
+    "customer_message": "I keep getting 'verification failed' when trying to sign into iCloud",
+    "conversation_context": [],
+    "gold_intent": "account_access",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Usually network or date/time issue",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_049",
+    "customer_message": "Trying to create a new Apple ID but it says my email is already associated with another account",
+    "conversation_context": [],
+    "gold_intent": "account_access",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Guide through account lookup",
+    "difficulty": "medium",
+    "reference_reply": "We understand the frustration. Try force-restarting: quickly press Volume Up, Volume Down, then hold Side button until Apple logo appears. If the boot loop continues, you may need DFU mode — DM us and we'll walk you through it. ^KA"
+  },
+  {
+    "id": "gs_050",
+    "customer_message": "My account says it's disabled in the App Store but I can use everything else fine??",
+    "conversation_context": [],
+    "gold_intent": "account_access",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Partial account disable is unusual",
+    "difficulty": "hard",
+    "reference_reply": "We're so sorry to hear about your photos. They may still be recoverable from iCloud. Check Settings > [Your Name] > iCloud > Photos to see if iCloud Photos is on. Also check Recently Deleted. DM us for more help. ^KA"
+  },
+  {
+    "id": "gs_051",
+    "customer_message": "Just changed my password but it's still not letting me log in on my Mac",
+    "conversation_context": [],
+    "gold_intent": "account_access",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Needs to update password on all devices",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_052",
+    "customer_message": "I think someone is using my Apple ID. I'm seeing purchases I didn't make",
+    "conversation_context": [],
+    "gold_intent": "account_access",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Unauthorized access and fraud",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_053",
+    "customer_message": "Stuck in an activation lock loop after factory reset. I AM the owner",
+    "conversation_context": [],
+    "gold_intent": "account_access",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Activation lock needs proof of purchase",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_054",
+    "customer_message": "My child's Apple ID got locked because they entered the wrong password too many times",
+    "conversation_context": [],
+    "gold_intent": "account_access",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Standard unlock process for child account",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_055",
+    "customer_message": "can't log into anything apple related. id, icloud, app store. all say error connecting",
+    "conversation_context": [],
+    "gold_intent": "account_access",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Likely network/server issue",
+    "difficulty": "hard",
+    "reference_reply": "Locked accounts can be resolved! Visit iforgot.apple.com to start the recovery process. If you don't have access to your trusted devices or phone number, DM us and we'll help with next steps. ^KA"
+  },
+  {
+    "id": "gs_056",
+    "customer_message": "I have my receipt and everything but the activation lock won't come off. been trying for a week now",
+    "conversation_context": [],
+    "gold_intent": "account_access",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Persistent activation lock with proof of purchase",
+    "difficulty": "hard",
+    "reference_reply": "We understand how stressful that is. Visit iforgot.apple.com and choose 'Forgot Apple ID or password.' If your recovery email is no longer accessible, you can start an account recovery. DM us for guidance. ^KA"
+  },
+  {
+    "id": "gs_057",
+    "customer_message": "Changed my Apple ID email but now I can't access my old purchases",
+    "conversation_context": [],
+    "gold_intent": "account_access",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Purchase history tied to old ID",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_058",
+    "customer_message": "My Apple ID got disabled after I traveled abroad. I think it's a security thing?",
+    "conversation_context": [],
+    "gold_intent": "account_access",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Account disabled during travel",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_059",
+    "customer_message": "Getting asked for an Apple ID I've never seen before on this used iPhone I just bought",
+    "conversation_context": [],
+    "gold_intent": "account_access",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Possible stolen device / activation lock",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_060",
+    "customer_message": "Why does my Apple ID keep signing out on its own every few hours?",
+    "conversation_context": [],
+    "gold_intent": "account_access",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Sign-out loop troubleshooting",
+    "difficulty": "medium",
+    "reference_reply": "We can help you find it! Go to iforgot.apple.com and click 'look it up.' You can also check Settings on any device where you're signed in. DM us if you need more help. ^KA"
+  },
+  {
+    "id": "gs_061",
+    "customer_message": "I was charged $9.99 for an app I never downloaded. Need a refund",
+    "conversation_context": [],
+    "gold_intent": "billing_inquiry",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Unauthorized charge needs investigation",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_062",
+    "customer_message": "How do I cancel my Apple Music subscription?",
+    "conversation_context": [],
+    "gold_intent": "billing_inquiry",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Simple how-to for subscription management",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_063",
+    "customer_message": "My kid made $200 worth of in-app purchases without my permission. Need refund ASAP",
+    "conversation_context": [],
+    "gold_intent": "billing_inquiry",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Significant unauthorized purchases by minor",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_064",
+    "customer_message": "I was double-charged for my iCloud storage this month",
+    "conversation_context": [],
+    "gold_intent": "billing_inquiry",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Billing error needs backend investigation",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_065",
+    "customer_message": "I cancelled my subscription but I'm still being charged every month",
+    "conversation_context": [],
+    "gold_intent": "billing_inquiry",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Recurring charge after cancellation",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_066",
+    "customer_message": "How much does iCloud 200GB cost per month?",
+    "conversation_context": [],
+    "gold_intent": "billing_inquiry",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Simple pricing question",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_067",
+    "customer_message": "I want to upgrade my iCloud storage plan from 50GB to 200GB",
+    "conversation_context": [],
+    "gold_intent": "billing_inquiry",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Standard upgrade process",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_068",
+    "customer_message": "Can I get a refund for an app that doesn't work as advertised?",
+    "conversation_context": [],
+    "gold_intent": "billing_inquiry",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Direct to reportaproblem.apple.com",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_069",
+    "customer_message": "I see a charge from 'apple.com/bill' on my credit card but I don't know what it's for",
+    "conversation_context": [],
+    "gold_intent": "billing_inquiry",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Can check purchase history in settings",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_070",
+    "customer_message": "My free trial ended and I got charged without any warning",
+    "conversation_context": [],
+    "gold_intent": "billing_inquiry",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Trial terms are shown at signup",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_071",
+    "customer_message": "Need to change my payment method for Apple subscriptions",
+    "conversation_context": [],
+    "gold_intent": "billing_inquiry",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Simple settings change",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_072",
+    "customer_message": "Got charged $14.99 for Apple TV+ but I thought it was included with my new iPhone",
+    "conversation_context": [],
+    "gold_intent": "billing_inquiry",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Explain promo terms and expiry",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_073",
+    "customer_message": "I've been charged for a subscription I cancelled 3 months ago. This is theft. I want my money back NOW",
+    "conversation_context": [],
+    "gold_intent": "billing_inquiry",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Multiple months of incorrect charges, angry customer",
+    "difficulty": "hard",
+    "reference_reply": "We'd like to help with that charge. You can request a refund at reportaproblem.apple.com. Sign in, find the purchase, and select 'Report a Problem.' DM us if you need further assistance. ^KA"
+  },
+  {
+    "id": "gs_074",
+    "customer_message": "there's like 5 charges from apple on my bank statement this month and i only bought one thing",
+    "conversation_context": [],
+    "gold_intent": "billing_inquiry",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Multiple unexplained charges",
+    "difficulty": "hard",
+    "reference_reply": "Sure thing! Go to Settings > [Your Name] > Subscriptions, tap Apple Music, then tap Cancel. Your subscription will remain active until the end of the billing period. ^KA"
+  },
+  {
+    "id": "gs_075",
+    "customer_message": "how do i see what subscriptions i'm paying for? i think i'm paying for stuff i forgot about",
+    "conversation_context": [],
+    "gold_intent": "billing_inquiry",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Guide to subscription management",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_076",
+    "customer_message": "Trying to buy an app but it says my payment method was declined even though I have money",
+    "conversation_context": [],
+    "gold_intent": "billing_inquiry",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Payment method verification",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_077",
+    "customer_message": "I returned my iPhone but the AppleCare charge is still on my account",
+    "conversation_context": [],
+    "gold_intent": "billing_inquiry",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Refund for returned product service plan",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_078",
+    "customer_message": "why am i being charged in USD when I'm in the UK? my bank is adding conversion fees",
+    "conversation_context": [],
+    "gold_intent": "billing_inquiry",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Regional pricing explanation",
+    "difficulty": "hard",
+    "reference_reply": "The 200GB iCloud+ plan is $2.99/month. You can upgrade in Settings > [Your Name] > iCloud > Manage Account Storage > Change Storage Plan. ^KA"
+  },
+  {
+    "id": "gs_079",
+    "customer_message": "I'm going to dispute these charges with my bank if you don't refund me",
+    "conversation_context": [],
+    "gold_intent": "billing_inquiry",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Threat of chargeback - needs immediate attention",
+    "difficulty": "hard",
+    "reference_reply": "Of course! Go to Settings > [Your Name] > iCloud > Manage Account Storage > Change Storage Plan and select 200GB. The change takes effect immediately. ^KA"
+  },
+  {
+    "id": "gs_080",
+    "customer_message": "Can I transfer my remaining Apple gift card balance to a different account?",
+    "conversation_context": [],
+    "gold_intent": "billing_inquiry",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Gift card policy explanation",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_081",
+    "customer_message": "How do I transfer all my data from my old iPhone to my new one?",
+    "conversation_context": [],
+    "gold_intent": "how_to",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Standard how-to question",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_082",
+    "customer_message": "Where can I find my iPhone's serial number?",
+    "conversation_context": [],
+    "gold_intent": "how_to",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Simple settings lookup",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_083",
+    "customer_message": "How do I set up Family Sharing with my wife's account?",
+    "conversation_context": [],
+    "gold_intent": "how_to",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Feature setup guidance",
+    "difficulty": "easy",
+    "reference_reply": "You can check your subscriptions at Settings > [Your Name] > Subscriptions. This shows all active and expired subscriptions so you can cancel any you don't need. ^KA"
+  },
+  {
+    "id": "gs_084",
+    "customer_message": "How do I take a screenshot on my new MacBook?",
+    "conversation_context": [],
+    "gold_intent": "how_to",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Simple keyboard shortcut",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_085",
+    "customer_message": "What's the best way to back up my iPhone before trading it in?",
+    "conversation_context": [],
+    "gold_intent": "how_to",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Backup process guidance",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_086",
+    "customer_message": "How do I use AirDrop to send photos to my friend's iPhone?",
+    "conversation_context": [],
+    "gold_intent": "how_to",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "AirDrop walkthrough",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_087",
+    "customer_message": "Can I use my iPad as a second screen for my Mac? How?",
+    "conversation_context": [],
+    "gold_intent": "how_to",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Sidecar feature setup",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_088",
+    "customer_message": "How do I set up an email signature on the Mail app?",
+    "conversation_context": [],
+    "gold_intent": "how_to",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Mail settings guidance",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_089",
+    "customer_message": "Is there a way to schedule messages to send later on iPhone?",
+    "conversation_context": [],
+    "gold_intent": "how_to",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Feature availability info",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_090",
+    "customer_message": "How do I add a widget to my iPhone lock screen?",
+    "conversation_context": [],
+    "gold_intent": "how_to",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "iOS customization steps",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_091",
+    "customer_message": "How can I track my AirPods location if I lost them?",
+    "conversation_context": [],
+    "gold_intent": "how_to",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Find My setup and usage",
+    "difficulty": "medium",
+    "reference_reply": "Great question! You can use Quick Start to transfer everything wirelessly. Place both iPhones near each other, follow the on-screen prompts, and it'll transfer your data, settings, and apps. ^KA"
+  },
+  {
+    "id": "gs_092",
+    "customer_message": "I want to set up parental controls on my kid's iPad. What's the best approach?",
+    "conversation_context": [],
+    "gold_intent": "how_to",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Screen Time and restrictions",
+    "difficulty": "medium",
+    "reference_reply": "Go to Settings > General > About — you'll see the serial number listed there. You can also find it on the original box or in your Apple ID account page. ^KA"
+  },
+  {
+    "id": "gs_093",
+    "customer_message": "how do i make my mac automatically lock when i walk away?",
+    "conversation_context": [],
+    "gold_intent": "how_to",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Apple Watch auto-lock or sleep settings",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_094",
+    "customer_message": "Is there a way to recover deleted texts from like 2 months ago?",
+    "conversation_context": [],
+    "gold_intent": "how_to",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "iCloud backup message recovery",
+    "difficulty": "hard",
+    "reference_reply": "Command + Shift + 3 captures the full screen. Command + Shift + 4 lets you select an area. Command + Shift + 5 gives you more options including screen recording! ^KA"
+  },
+  {
+    "id": "gs_095",
+    "customer_message": "how do you set up that thing where your phone automatically goes to focus mode at night",
+    "conversation_context": [],
+    "gold_intent": "how_to",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Focus mode scheduling",
+    "difficulty": "medium",
+    "reference_reply": "We recommend using iCloud Backup! Go to Settings > [Your Name] > iCloud > iCloud Backup > Back Up Now. Make sure you're on Wi-Fi and plugged in. ^KA"
+  },
+  {
+    "id": "gs_096",
+    "customer_message": "Can I use two different Apple IDs on the same iPhone? One for iCloud and one for App Store?",
+    "conversation_context": [],
+    "gold_intent": "how_to",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Yes, guide through settings",
+    "difficulty": "hard",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_097",
+    "customer_message": "How do I check my iPhone battery health percentage?",
+    "conversation_context": [],
+    "gold_intent": "how_to",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Settings > Battery > Battery Health",
+    "difficulty": "easy",
+    "reference_reply": "Yes! It's called Sidecar. Make sure both devices are signed into the same Apple ID, then on your Mac go to System Settings > Displays > Add Display and select your iPad. ^KA"
+  },
+  {
+    "id": "gs_098",
+    "customer_message": "What do I do with my Apple Watch before selling it?",
+    "conversation_context": [],
+    "gold_intent": "how_to",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Unpair and erase guide",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_099",
+    "customer_message": "How to scan documents with my iPhone camera?",
+    "conversation_context": [],
+    "gold_intent": "how_to",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Notes app scanner feature",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_100",
+    "customer_message": "Is there a way to share my location with family members permanently?",
+    "conversation_context": [],
+    "gold_intent": "how_to",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Find My or Messages sharing",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_101",
+    "customer_message": "I can't download any apps from the App Store. It just shows a spinning wheel forever",
+    "conversation_context": [],
+    "gold_intent": "app_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Clear cache, sign out/in",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_102",
+    "customer_message": "WhatsApp won't update on my iPhone. Says 'unable to update'",
+    "conversation_context": [],
+    "gold_intent": "app_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Storage or network issue",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_103",
+    "customer_message": "Apps keep crashing immediately after I open them since the update",
+    "conversation_context": [],
+    "gold_intent": "app_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Reinstall apps or update iOS",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_104",
+    "customer_message": "My banking app says it's not compatible with my iOS version",
+    "conversation_context": [],
+    "gold_intent": "app_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Check iOS version requirements",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_105",
+    "customer_message": "I accidentally deleted an app I paid for. Do I have to buy it again?",
+    "conversation_context": [],
+    "gold_intent": "app_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "No, redownload from purchase history",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_106",
+    "customer_message": "App Store keeps asking me to verify my payment info before downloading free apps",
+    "conversation_context": [],
+    "gold_intent": "app_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Update payment method",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_107",
+    "customer_message": "The App Store page is completely blank. Just white screen",
+    "conversation_context": [],
+    "gold_intent": "app_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Clear cache, check network",
+    "difficulty": "medium",
+    "reference_reply": "You can check your battery health at Settings > Battery > Battery Health & Charging. It shows Maximum Capacity and Peak Performance Capability. ^KA"
+  },
+  {
+    "id": "gs_108",
+    "customer_message": "Instagram sends me notifications but when I open the app there's nothing new",
+    "conversation_context": [],
+    "gold_intent": "app_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Third-party app notification issue",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_109",
+    "customer_message": "I downloaded an app that turned out to be a scam. It charged me $50/week",
+    "conversation_context": [],
+    "gold_intent": "app_issue",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Scam app needs review and refund",
+    "difficulty": "hard",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_110",
+    "customer_message": "An app I paid $4.99 for was removed from the App Store. Can I still use it?",
+    "conversation_context": [],
+    "gold_intent": "app_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Already purchased apps remain",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_111",
+    "customer_message": "My weather app widget stopped updating. Stuck on yesterday's forecast",
+    "conversation_context": [],
+    "gold_intent": "app_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Widget refresh troubleshooting",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_112",
+    "customer_message": "Can't install TestFlight beta apps. Says 'unable to install'",
+    "conversation_context": [],
+    "gold_intent": "app_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "TestFlight troubleshooting",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_113",
+    "customer_message": "All my app subscriptions disappeared from settings after restoring my phone",
+    "conversation_context": [],
+    "gold_intent": "app_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Restore purchases or re-sign in",
+    "difficulty": "medium",
+    "reference_reply": "Sure! Open the Notes app, tap the camera icon, and select 'Scan Documents.' Position the document in view and your iPhone will auto-capture it. ^KA"
+  },
+  {
+    "id": "gs_114",
+    "customer_message": "An app keeps requesting microphone access even though I denied it. Is this a virus??",
+    "conversation_context": [],
+    "gold_intent": "app_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "iOS permission prompts explanation",
+    "difficulty": "hard",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_115",
+    "customer_message": "The Podcasts app loses my progress and starts episodes from the beginning",
+    "conversation_context": [],
+    "gold_intent": "app_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "App sync issue, reinstall",
+    "difficulty": "easy",
+    "reference_reply": "Let's try some steps! Sign out of the App Store (Settings > [Your Name] > Media & Purchases > Sign Out), restart your device, then sign back in. Also check your internet connection. ^KA"
+  },
+  {
+    "id": "gs_116",
+    "customer_message": "I can't find a specific app in the App Store. Is it region locked?",
+    "conversation_context": [],
+    "gold_intent": "app_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Explain regional availability",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_117",
+    "customer_message": "My phone storage says apps are using 40GB but I barely have any installed",
+    "conversation_context": [],
+    "gold_intent": "app_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Offloaded apps or cache data",
+    "difficulty": "hard",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_118",
+    "customer_message": "App downloads get stuck at 'Waiting...' and never actually download",
+    "conversation_context": [],
+    "gold_intent": "app_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Prioritize download or restart",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_119",
+    "customer_message": "Just bought an app and it won't open. Immediately closes. Paid $12.99 for this!",
+    "conversation_context": [],
+    "gold_intent": "app_issue",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Try reinstall, then refund if still broken",
+    "difficulty": "medium",
+    "reference_reply": "Nope! Apps you've purchased are always linked to your Apple ID. Go to the App Store > your profile > Purchased, and you can redownload it for free. ^KA"
+  },
+  {
+    "id": "gs_120",
+    "customer_message": "A developer is threatening me through their app's messaging. This is harassment",
+    "conversation_context": [],
+    "gold_intent": "app_issue",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Safety concern - report to Trust & Safety",
+    "difficulty": "hard",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_121",
+    "customer_message": "My iPhone keeps disconnecting from WiFi every 5 minutes",
+    "conversation_context": [],
+    "gold_intent": "connectivity",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Reset network settings",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_122",
+    "customer_message": "Bluetooth won't pair with my car's audio system anymore",
+    "conversation_context": [],
+    "gold_intent": "connectivity",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Remove and re-pair device",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_123",
+    "customer_message": "AirDrop doesn't show my Mac as a device even though they're next to each other",
+    "conversation_context": [],
+    "gold_intent": "connectivity",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "AirDrop settings check",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_124",
+    "customer_message": "My cellular data stopped working. Shows signal bars but no data",
+    "conversation_context": [],
+    "gold_intent": "connectivity",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Toggle airplane mode, check APN",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_125",
+    "customer_message": "WiFi works on all other devices but my iPhone says 'no internet connection'",
+    "conversation_context": [],
+    "gold_intent": "connectivity",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Forget and rejoin network",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_126",
+    "customer_message": "My AirPods keep disconnecting mid-call and reconnecting",
+    "conversation_context": [],
+    "gold_intent": "connectivity",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Reset AirPods, re-pair",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_127",
+    "customer_message": "Personal hotspot doesn't show up on my other devices",
+    "conversation_context": [],
+    "gold_intent": "connectivity",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Hotspot settings and carrier check",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_128",
+    "customer_message": "Can't connect to any 5G network even though my area has coverage",
+    "conversation_context": [],
+    "gold_intent": "connectivity",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Check 5G settings and carrier plan",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_129",
+    "customer_message": "My Mac loses ethernet connection randomly but WiFi works fine",
+    "conversation_context": [],
+    "gold_intent": "connectivity",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Network preferences troubleshooting",
+    "difficulty": "medium",
+    "reference_reply": "We'd like to help! Try resetting your network settings: Settings > General > Transfer or Reset > Reset > Reset Network Settings. You'll need to re-enter Wi-Fi passwords. DM us if it persists. ^KA"
+  },
+  {
+    "id": "gs_130",
+    "customer_message": "iMessage says 'waiting for activation' and it's been 3 days",
+    "conversation_context": [],
+    "gold_intent": "connectivity",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Reset iMessage, check carrier",
+    "difficulty": "medium",
+    "reference_reply": "Let's try re-pairing. Go to Settings > Bluetooth, tap 'Forget This Device' for your car, then restart both your iPhone and car system, and pair again. ^KA"
+  },
+  {
+    "id": "gs_131",
+    "customer_message": "My iPhone can't find any WiFi networks at all. The list is completely empty",
+    "conversation_context": [],
+    "gold_intent": "connectivity",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Possible WiFi antenna hardware failure",
+    "difficulty": "hard",
+    "reference_reply": "Make sure both devices have AirDrop set to 'Everyone' or 'Contacts Only' in Control Center. Also check that Wi-Fi and Bluetooth are both on. They need to be within about 30 feet. ^KA"
+  },
+  {
+    "id": "gs_132",
+    "customer_message": "VPN disconnects every time my iPhone screen locks",
+    "conversation_context": [],
+    "gold_intent": "connectivity",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "VPN app settings or Low Power Mode",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_133",
+    "customer_message": "since the update my phone drops calls after exactly 2 minutes every time. tested 10+ calls",
+    "conversation_context": [],
+    "gold_intent": "connectivity",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Consistent call dropping pattern may be hardware",
+    "difficulty": "hard",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_134",
+    "customer_message": "Handoff between my iPhone and Mac stopped working. Already on same WiFi and iCloud",
+    "conversation_context": [],
+    "gold_intent": "connectivity",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Sign out/in of iCloud on both",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_135",
+    "customer_message": "My Apple TV keeps buffering even though speed test shows 200mbps",
+    "conversation_context": [],
+    "gold_intent": "connectivity",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "DNS or streaming quality settings",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_136",
+    "customer_message": "eSIM transfer failed and now I have no cellular service on either phone",
+    "conversation_context": [],
+    "gold_intent": "connectivity",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "No cellular service - urgent connectivity issue",
+    "difficulty": "hard",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_137",
+    "customer_message": "bluetooth keyboard keeps typing wrong characters when connected to ipad",
+    "conversation_context": [],
+    "gold_intent": "connectivity",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Input source/language settings",
+    "difficulty": "hard",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_138",
+    "customer_message": "CarPlay disconnects constantly. Tried 3 different cables already",
+    "conversation_context": [],
+    "gold_intent": "connectivity",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Check car compatibility and port",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_139",
+    "customer_message": "My HomePod can't connect to WiFi even though it's right next to the router",
+    "conversation_context": [],
+    "gold_intent": "connectivity",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Reset HomePod and setup again",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_140",
+    "customer_message": "FaceTime audio cuts out when I switch from WiFi to cellular and vice versa",
+    "conversation_context": [],
+    "gold_intent": "connectivity",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "WiFi Assist settings",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_141",
+    "customer_message": "My iPhone battery goes from 100% to 20% in just 3 hours of normal use",
+    "conversation_context": [],
+    "gold_intent": "performance",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Battery health check and settings optimization",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_142",
+    "customer_message": "My MacBook is incredibly slow. Takes 5 minutes just to open Finder",
+    "conversation_context": [],
+    "gold_intent": "performance",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Activity Monitor check, storage/RAM",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_143",
+    "customer_message": "I keep getting 'Storage Almost Full' even after deleting tons of photos",
+    "conversation_context": [],
+    "gold_intent": "performance",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Clear 'Other' storage and cache",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_144",
+    "customer_message": "My iPad is so laggy now. It used to be fast. Is it because it's old?",
+    "conversation_context": [],
+    "gold_intent": "performance",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Clear RAM, reduce animations",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_145",
+    "customer_message": "iPhone battery health shows 79%. Is that bad? Should I replace it?",
+    "conversation_context": [],
+    "gold_intent": "performance",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Explain battery health thresholds",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_146",
+    "customer_message": "My Mac fans run at full speed even when I'm just writing a document",
+    "conversation_context": [],
+    "gold_intent": "performance",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Check Activity Monitor for runaway processes",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_147",
+    "customer_message": "iPhone gets uncomfortably hot while charging. Like can barely hold it",
+    "conversation_context": [],
+    "gold_intent": "performance",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Safety concern - overheating during charging",
+    "difficulty": "medium",
+    "reference_reply": "Battery life is important! Check Settings > Battery to see which apps are using the most power. Also try turning off Background App Refresh and reducing screen brightness. DM us for more tips. ^KA"
+  },
+  {
+    "id": "gs_148",
+    "customer_message": "My 2 year old MacBook Air only lasts 2 hours on battery now",
+    "conversation_context": [],
+    "gold_intent": "performance",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Battery cycle count and health check",
+    "difficulty": "medium",
+    "reference_reply": "That's definitely not ideal. Let's check a few things: open Activity Monitor (search in Spotlight), click the CPU tab, and let us know what's using the most resources. A restart can also help. ^KA"
+  },
+  {
+    "id": "gs_149",
+    "customer_message": "Storage says 'System Data' is using 60GB on my 128GB iPhone. That can't be right",
+    "conversation_context": [],
+    "gold_intent": "performance",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "System data cache clearing steps",
+    "difficulty": "medium",
+    "reference_reply": "'Other' storage can build up over time. Try offloading unused apps (Settings > General > iPhone Storage), clearing Safari cache, and restarting. A backup-and-restore can also help clear it. ^KA"
+  },
+  {
+    "id": "gs_150",
+    "customer_message": "My iPhone keeps dimming the screen even though auto-brightness is off",
+    "conversation_context": [],
+    "gold_intent": "performance",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Thermal management explanation",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_151",
+    "customer_message": "After the update my phone is noticeably slower. Apps take 3-4 seconds to open",
+    "conversation_context": [],
+    "gold_intent": "performance",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Post-update indexing explanation",
+    "difficulty": "medium",
+    "reference_reply": "At 79%, your battery has degraded somewhat. Apple recommends replacement when it drops below 80%. You can get it replaced at an Apple Store or authorized provider — check https://getsupport.apple.com. ^KA"
+  },
+  {
+    "id": "gs_152",
+    "customer_message": "RAM on my MacBook is always at 95%+ usage even with only 2 apps open",
+    "conversation_context": [],
+    "gold_intent": "performance",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Memory management and swap usage",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_153",
+    "customer_message": "my phone literally dies at 30% battery. just shuts off. every single day now",
+    "conversation_context": [],
+    "gold_intent": "performance",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Battery shutting down early - possible hardware defect",
+    "difficulty": "hard",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_154",
+    "customer_message": "Is Apple throttling my old iPhone? It's gotten way slower after the update",
+    "conversation_context": [],
+    "gold_intent": "performance",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Explain performance management feature",
+    "difficulty": "hard",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_155",
+    "customer_message": "my macbook crashed 3 times today. kernel panic every time. losing all my work",
+    "conversation_context": [],
+    "gold_intent": "performance",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Repeated kernel panics indicate serious issue",
+    "difficulty": "hard",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_156",
+    "customer_message": "icloud sync is making my mac completely unusable. beach ball spinning for minutes",
+    "conversation_context": [],
+    "gold_intent": "performance",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Pause sync, check what's syncing",
+    "difficulty": "hard",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_157",
+    "customer_message": "My iPhone 12 still perfectly fine but battery percentage jumps from 40 to 15 randomly",
+    "conversation_context": [],
+    "gold_intent": "performance",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Battery calibration or cell failure",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_158",
+    "customer_message": "Mac takes 10+ minutes to wake from sleep now",
+    "conversation_context": [],
+    "gold_intent": "performance",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "SMC/NVRAM reset for Intel Macs",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_159",
+    "customer_message": "My M2 MacBook Air throttles during video calls. Screen gets choppy",
+    "conversation_context": [],
+    "gold_intent": "performance",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Thermal throttling during intensive tasks",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_160",
+    "customer_message": "Everything on my iPhone is delayed by half a second. Typing, scrolling, everything",
+    "conversation_context": [],
+    "gold_intent": "performance",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Reduce Motion and restart",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_161",
+    "customer_message": "I love the new iOS update! The interactive widgets are amazing 🎉",
+    "conversation_context": [],
+    "gold_intent": "feedback_complaint",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Positive feedback - acknowledge",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_162",
+    "customer_message": "Your support has been absolutely terrible. 3 hours on hold and no help",
+    "conversation_context": [],
+    "gold_intent": "feedback_complaint",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Severe complaint about service quality",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_163",
+    "customer_message": "Worst customer service experience of my life. Never buying Apple again",
+    "conversation_context": [],
+    "gold_intent": "feedback_complaint",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Customer threatening to leave brand",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_164",
+    "customer_message": "Just want to say thank you to the Apple team who fixed my Mac. Great service!",
+    "conversation_context": [],
+    "gold_intent": "feedback_complaint",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Positive feedback",
+    "difficulty": "easy",
+    "reference_reply": "We're glad you're enjoying it! Thanks for the kind words. If you ever need help with anything, we're always here. Have a great day! 😊 ^KA"
+  },
+  {
+    "id": "gs_165",
+    "customer_message": "Apple products used to be good. Quality has really gone downhill",
+    "conversation_context": [],
+    "gold_intent": "feedback_complaint",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "General product feedback",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_166",
+    "customer_message": "I've been a loyal customer for 15 years and this is how you treat me?",
+    "conversation_context": [],
+    "gold_intent": "feedback_complaint",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Loyalty mention + strong dissatisfaction",
+    "difficulty": "medium",
+    "reference_reply": "We're sorry to hear that was your experience. We'd like to make it right. Please DM us with the details and we'll look into what happened. ^KA"
+  },
+  {
+    "id": "gs_167",
+    "customer_message": "Your prices are ridiculous. $1000 for a phone that breaks in a year",
+    "conversation_context": [],
+    "gold_intent": "feedback_complaint",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Price complaint - no actionable issue",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_168",
+    "customer_message": "Seriously considering switching to Samsung after this experience",
+    "conversation_context": [],
+    "gold_intent": "feedback_complaint",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Churn risk signal",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_169",
+    "customer_message": "The Genius Bar appointment system is broken. Earliest slot is 2 weeks out",
+    "conversation_context": [],
+    "gold_intent": "feedback_complaint",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Appointment availability feedback",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_170",
+    "customer_message": "Why does Apple force you to use their ecosystem for everything? It's so annoying",
+    "conversation_context": [],
+    "gold_intent": "feedback_complaint",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Ecosystem complaint - general frustration",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_171",
+    "customer_message": "Can you guys PLEASE add a calculator app to the iPad?? It's been 13 years!",
+    "conversation_context": [],
+    "gold_intent": "feedback_complaint",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Feature request",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_172",
+    "customer_message": "The new MacBook Pro is absolutely stunning. Best laptop I've ever owned",
+    "conversation_context": [],
+    "gold_intent": "feedback_complaint",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Positive product feedback",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_173",
+    "customer_message": "Every time I call support I get transferred 5 times and have to explain everything over and over",
+    "conversation_context": [],
+    "gold_intent": "feedback_complaint",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Systemic support experience complaint",
+    "difficulty": "hard",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_174",
+    "customer_message": "I'm going to post about this terrible experience on every social media platform",
+    "conversation_context": [],
+    "gold_intent": "feedback_complaint",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Threat of public complaint",
+    "difficulty": "hard",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_175",
+    "customer_message": "love my iphone but please make the volume buttons less clicky on the next model lol",
+    "conversation_context": [],
+    "gold_intent": "feedback_complaint",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Minor product feedback",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_176",
+    "customer_message": "3rd time sending my MacBook for repair. Same issue keeps coming back. Your repair quality is garbage",
+    "conversation_context": [],
+    "gold_intent": "feedback_complaint",
+    "gold_escalation": "escalate",
+    "gold_escalation_reason": "Repeat repair failure - needs escalation",
+    "difficulty": "hard",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_177",
+    "customer_message": "The subscription prices keep going up but the quality stays the same 😒",
+    "conversation_context": [],
+    "gold_intent": "feedback_complaint",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Pricing feedback",
+    "difficulty": "medium",
+    "reference_reply": "We appreciate you sharing that suggestion! Feature feedback is really valuable. You can submit it directly at apple.com/feedback — the product teams review every submission. ^KA"
+  },
+  {
+    "id": "gs_178",
+    "customer_message": "I've recommended Apple to everyone I know. Keep up the great work!",
+    "conversation_context": [],
+    "gold_intent": "feedback_complaint",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Positive referral feedback",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_179",
+    "customer_message": "You guys need a better trade-in program. The values are insultingly low",
+    "conversation_context": [],
+    "gold_intent": "feedback_complaint",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Trade-in program feedback",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_180",
+    "customer_message": "honestly if the next iphone doesn't have usb-c i'm done with apple forever",
+    "conversation_context": [],
+    "gold_intent": "feedback_complaint",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Feature demand (now resolved with USB-C)",
+    "difficulty": "hard",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_181",
+    "customer_message": "Hello!",
+    "conversation_context": [],
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Simple greeting",
+    "difficulty": "easy",
+    "reference_reply": "Hello! 👋 How can we help you today? ^KA"
+  },
+  {
+    "id": "gs_182",
+    "customer_message": "lol ok whatever",
+    "conversation_context": [],
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Non-substantive message",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_183",
+    "customer_message": "Can you help me fix my Samsung Galaxy?",
+    "conversation_context": [],
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Non-Apple product query",
+    "difficulty": "easy",
+    "reference_reply": "We focus on Apple products and services, but for Samsung support you can reach out to @SamsungSupport. Hope you get the help you need! ^KA"
+  },
+  {
+    "id": "gs_184",
+    "customer_message": "👍",
+    "conversation_context": [],
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Emoji-only response",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_185",
+    "customer_message": "Testing testing 123",
+    "conversation_context": [],
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Non-support message",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_186",
+    "customer_message": "What time does the Apple Store in NYC close?",
+    "conversation_context": [],
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Store hours inquiry",
+    "difficulty": "easy",
+    "reference_reply": "The Apple Store in NYC (Fifth Avenue) is open 24/7! Other locations typically open 10am-9pm. You can check specific hours at apple.com/retail. ^KA"
+  },
+  {
+    "id": "gs_187",
+    "customer_message": "Is Apple going to release a new iPhone this year?",
+    "conversation_context": [],
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Product rumor/speculation",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_188",
+    "customer_message": "Do you guys sell refurbished MacBooks?",
+    "conversation_context": [],
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "General sales question",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_189",
+    "customer_message": "Can I bring my dog to the Apple Store?",
+    "conversation_context": [],
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Store policy question",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_190",
+    "customer_message": "I just wanted to let you know your website is down",
+    "conversation_context": [],
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Website status report",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_191",
+    "customer_message": "Is there a student discount for MacBooks?",
+    "conversation_context": [],
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Pricing/education inquiry",
+    "difficulty": "easy",
+    "reference_reply": "Yes! Apple offers certified refurbished Macs at apple.com/shop/refurbished. They come with a one-year warranty and look and perform like new. ^KA"
+  },
+  {
+    "id": "gs_192",
+    "customer_message": "My Windows laptop has a virus. Can you help?",
+    "conversation_context": [],
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Non-Apple product",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_193",
+    "customer_message": "Are you guys hiring? I'd love to work at Apple",
+    "conversation_context": [],
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Employment inquiry",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_194",
+    "customer_message": "(empty message)",
+    "conversation_context": [],
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Empty/near-empty message",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_195",
+    "customer_message": "@AppleSupport follow back pls 🙏",
+    "conversation_context": [],
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Social media engagement, not support",
+    "difficulty": "easy",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_196",
+    "customer_message": "Hey can someone explain to me why Apple exists",
+    "conversation_context": [],
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Philosophical/non-support question",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_197",
+    "customer_message": "What happened to the Apple Car project?",
+    "conversation_context": [],
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Corporate strategy question",
+    "difficulty": "medium",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_198",
+    "customer_message": "I need help but I don't even know where to start tbh",
+    "conversation_context": [],
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Vague, needs clarification",
+    "difficulty": "hard",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_199",
+    "customer_message": "So I have a problem... it's kind of complicated... can someone DM me?",
+    "conversation_context": [],
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Vague request for DM",
+    "difficulty": "hard",
+    "reference_reply": ""
+  },
+  {
+    "id": "gs_200",
+    "customer_message": "Apple Google Microsoft Amazon who's the best? Debate me",
+    "conversation_context": [],
+    "gold_intent": "other",
+    "gold_escalation": "auto_handle",
+    "gold_escalation_reason": "Non-support engagement",
+    "difficulty": "easy",
+    "reference_reply": ""
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "thread_id": "119253",
+    "customer_message": "I just updated my phone and suddenly everything takes ages to load wtf this update sux I hate it fix it bye",
+    "brand_reply": "Thanks for reaching out to us. We are always happy to help. Send us a DM so we can look into this together.",
+    "conversation_context": []
+  },
+  {
+    "thread_id": "119263",
+    "customer_message": "after the 11.0.2 my phone just sucks most of the apps are broken, wifi disconnects frequently #apple #ios1102 #painfulupdate",
+    "brand_reply": "We'd love to help! Please DM us and let us know any steps you've tried since experiencing these behaviors.",
+    "conversation_context": []
+  },
+  {
+    "thread_id": "119268",
+    "customer_message": "Okay I used my fucking phone for 2 minutes and it drains it down 8 fucking percent",
+    "brand_reply": "Battery life is important, and we're here for you. DM us the iOS version your iPhone is running. We'll go from there.",
+    "conversation_context": []
+  },
+  {
+    "thread_id": "119272",
+    "customer_message": "You\u2019ve paralysed my phone with your update grrrrrrrrrr",
+    "brand_reply": "We'd be happy to help. Send us a DM and we can start there.",
+    "conversation_context": []
+  },
+  {
+    "thread_id": "119272",
+    "customer_message": "Can you get my iPhone 7plus back on the old iOS please? Battery runs out in half the time, apps now frequently crash.",
+    "brand_reply": "Thanks for reaching out to us. We are always happy to help. Send us a DM so we can look into this together.",
+    "conversation_context": [
+      "You\u2019ve paralysed my phone with your update grrrrrrrrrr",
+      "We'd be happy to help. Send us a DM and we can start there."
+    ]
+  },
+  {
+    "thread_id": "119280",
+    "customer_message": "So the new update does not let me listen to music and go on whatsapp at the same time?!?",
+    "brand_reply": "We'd like to help. What happens when you try to listen to Apple Music &amp; use WhatsApp? Does the music pause? Let us know in DM.",
+    "conversation_context": []
+  },
+  {
+    "thread_id": "119292",
+    "customer_message": "#ios11update - is still killing my battery within 12 hours - phone is 10 months old - it\u2019s a disgrace - used to get 2 days",
+    "brand_reply": "Let's take a look. What is the exact iOS you're using? Are you using any specific apps when noticing this? DM us your reply.",
+    "conversation_context": []
+  },
+  {
+    "thread_id": "119294",
+    "customer_message": "Took my phone off charge at 7:20am. 8:03am - 60% battery remaining. plz I beg you, sort your battery life out\ud83d\ude29",
+    "brand_reply": "Thanks for reaching out to us. We are always happy to help. Send us a DM so we can look into this together.",
+    "conversation_context": []
+  },
+  {
+    "thread_id": "119299",
+    "customer_message": "I need a new code for my I-store. I haven\u2019t recd any but msg is too many sent. Help!",
+    "brand_reply": "We'd like to provide some assistance with this. Tell us more about the issue you're experiencing in DM. We'll go from there.",
+    "conversation_context": []
+  },
+  {
+    "thread_id": "119301",
+    "customer_message": "fix this update. It\u2019s horrible",
+    "brand_reply": "Are you experiencing an issue with your device? If so, DM us with what's going on. We'll see how we can help from there.",
+    "conversation_context": []
+  },
+  {
+    "thread_id": "119326",
+    "customer_message": "My apps stop working without warning and my phone freezes every five minutes! Love the new update !!!!",
+    "brand_reply": "We'd like to help if we can. When did this start happening? Which version of iOS are you running currently?",
+    "conversation_context": []
+  },
+  {
+    "thread_id": "119326",
+    "customer_message": "I have the latest version iOS. It started immediately after I updated my phone.",
+    "brand_reply": "Is there a particular app that seems to cause these issues more than others? What model iPhone are you using? Join us in DM.",
+    "conversation_context": [
+      "My apps stop working without warning and my phone freezes every five minutes! Love the new update !!!!",
+      "We'd like to help if we can. When did this start happening? Which version of iOS are you running currently?"
+    ]
+  }
+]
